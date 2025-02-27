@@ -143,7 +143,7 @@ if (!window.depopFollowManager) {
         let unfollowCount = 0;
         let totalUnfollowCount = 0;
         while (this.isUnfollowing) {
-          const followingButtons = document.querySelectorAll('button[data-testid="followingButton"]');
+          const followingButtons = document.querySelectorAll('button._buttonWrapper_n6h1p_5._padding--sm_n6h1p_60._colorStyles--green_n6h1p_86');
           let foundButtonsUnfollow = false;
           
           for (const button of followingButtons) {
